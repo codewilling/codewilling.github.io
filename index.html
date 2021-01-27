@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h1>Sean Flores</h1>
+        <ul>
+          <li>
+            <a data-page="home" href="#">Home</a>
+          </li>
+          <li>
+            <a data-page="project" href="#">Project</a>
+          </li>
+          <li>
+            <a data-page="contact" href="#">Contact</a>
+          </li>
+          <li class="bubble"></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <a href="https://codewilling.github.io/resume/" style="text-decoration: none;">
+        <section data-index="0" class="home">
+          <h2>Home</h2>
+        </section>
+      </a>
+      <section data-index="1" class="project">
+         <h2>Projects</h2>
+         <div style="display: flex">
+            <a href="https://codewilling-react-timer.herokuapp.com/" style="text-decoration: none;">
+               React Timer
+            </a>
+            <a href="https://codewilling.github.io/color-guessing-game/" style="text-decoration: none;">
+               Color Guessing Game
+            </a>
+            <a href="https://codewilling.github.io/sound-board/" style="text-decoration: none;">Sound Board</a>
+          </div>
+        </section>
+        <section data-index="2" class="contact">
+          <h2>Contact</h2>
+          <div>
+             <a href="https://www.linkedin.com/in/sean-flores" target="_blank"><img src="./public/assets/images/In-White-34px-R.png"
+               alt="codewilling's linkedin" />LinkedIn</a>
+       <a href="https://www.github.com/codewilling" target="_blank"><img src="./public/assets/images/GitHub-Mark-Light-32px.png"
+               alt="codewilling's github" />Github</a>
+          </div>
+        </section>
+    </main>
+    <footer> 
+    <p>&#169 2021 Sean Flores</p>
+
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
